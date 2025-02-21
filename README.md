@@ -12,12 +12,19 @@
 ```bash
 > npm i nayan-videos-downloader
 ```
-## Last Update 
-```print
-• pintarest (fix)
-• capcut (fix)
-• ytdown (fix)
-```
+## 🚀 Project Update Log  
+
+### 📌 Last Update  
+
+### 🆕 New Features & Fixes  
+- ✅ **Pinterest** - Bug fixes & improved functionality  
+- ✅ **CapCut** - Stability improvements & fixes  
+- ✅ **YouTube Download** - Fixed issues & better performance  
+- ✅ **Terabox** - **New** feature added for downloading  
+- ✅ **SoundCloud Search** - Search for tracks easily  
+- ✅ **SoundCloud Download** - Download tracks with ease  
+
+---
 
 ## Example (fb & insta)
 ```js
