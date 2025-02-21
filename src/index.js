@@ -16,7 +16,11 @@ module.exports = {
   likee: createRequest('likee'),
   alldown: createRequest('alldown'),
   spotifySearch: createRequest('spotify-search', (name, limit) => ({ name, limit })),
-  spotifyDl: createRequest('spotifyDl', (url) => ({ url }))
+  soundcloudSearch: createRequest('soundcloud-search', (name, limit) => ({ name, limit })),
+  spotifyDl: createRequest('spotifyDl', (url) => ({ url })),
+  soundcloud: createRequest('soundcloud', (url) => ({ url })),
+  terabox: createRequest('terabox', (url) => ({ url })),
+
 };
 
 function createRequest(endpoint, formatData) {
