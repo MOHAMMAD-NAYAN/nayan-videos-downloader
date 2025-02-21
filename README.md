@@ -207,7 +207,7 @@ threads(url).then(data => {
 });
 ```
 
-## Usage Spotify Search 
+### Usage Spotify Search (alldown function doesn't have it)
 ```js
 (async () => {
   const { spotifySearch } = require("nayan-videos-downloader");
@@ -220,7 +220,7 @@ threads(url).then(data => {
   }
 })();
 ```
-## Usage Spotify Download 
+### Usage Spotify Download (alldown function doesn't have it)
 ```js
 (async () => {
   const { spotifyDl } = require("nayan-videos-downloader");
@@ -229,6 +229,47 @@ threads(url).then(data => {
     const url = "https://open.spotify.com/track/18xxOCfmxqBD5YgTFpzp5d"
     let URL = await spotifyDl(url);
     console.log(URL);
+  } catch (error) {
+    console.error("Error fetching Spotify search results:", error);
+  }
+})();
+```
+### Usage Soundcloud Search (alldown function doesn't have it)
+```js
+(async () => {
+  const { soundcloudSearch } = require("nayan-videos-downloader");
+
+  try {
+    let data = await soundcloudSearch("ghum odd", 5);
+    console.log(data);
+  } catch (error) {
+    console.error("Error fetching Spotify search results:", error);
+  }
+})();
+```
+### Usage soundcloud downloader (alldown function doesn't have it)
+```js
+(async () => {
+  const { soundcloud } = require("nayan-videos-downloader");
+
+  try {
+    const url = "https://soundcloud.com/shezan-mahfuz/villain-highway"
+    let data = await soundcloud(url);
+    console.log(data);
+  } catch (error) {
+    console.error("Error fetching Spotify search results:", error);
+  }
+})();
+```
+### Usage Terabox Downloader (alldown function doesn't have it)
+```js
+(async () => {
+  const { terabox } = require("nayan-videos-downloader");
+
+  try {
+    const url = "https://teraboxlink.com/s/1W8ru115PP8VY6QDNnFXZLQ"
+    let data = await terabox(url);
+    console.log(data);
   } catch (error) {
     console.error("Error fetching Spotify search results:", error);
   }
