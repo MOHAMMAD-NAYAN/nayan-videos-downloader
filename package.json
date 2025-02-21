@@ -1,6 +1,6 @@
 {
   "name": "nayan-videos-downloader",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Fetch Url Downloads From Instagram & Facebook & TikTok & YouTube & Twitter & Google Drive & Pintarest & likee & threads",
   "main": "src/index.js",
   "scripts": {
@@ -42,6 +42,12 @@
     "Spotify Download",
     "Spotify Download Api",
     "Spotify Downloader",
+    "Soundcloud search",
+    "Soundcloud Download",
+    "Soundcloud Downloader",
+    "terabox download",
+    "terabox",
+    "terabox downloader",
     "nayan"
   ],
   "author": "NAYAN",
